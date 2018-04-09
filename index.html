@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Animal Portfolio</title>
+		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel='stylesheet'>
+		<link rel="stylesheet" type='text/css' href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6"><img src="img/logo.png" alt="Animal"></div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1>animal store</h1>
+					<h4>cats - dogs</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<img src="img/home_pic1.jpg" class="img-responsive" alt="cat & dog">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-uppercase">
+					<h2>some others</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="img/dog/pomeranian2.jpg" alt="puppy1" class="img-responsive">
+					<h3 class="text-center">Pomeranian</h3>
+					<p><a href="des/pomeranian.html">more..</a></p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/dog/pug1.jpg" alt="puppy2" class="img-responsive">
+					<h3 class="text-center">Pug</h3>
+					<p><a href="des/pug.html">more..</a></p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/dog/havanese1.jpg" alt="puppy3" class="img-responsive">
+					<h3 class="text-center">Havanese</h3>
+					<p><a href="des/havanese.html">more..</a></p>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="img/cat/persian1.jpg" alt="kitty1" class="img-responsive">
+					<h3 class="text-center">Persian</h3>
+					<p><a href="des/cat/persian">more..</a></p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/cat/scottish1.jpg" alt="kitty2" class="img-responsive">
+					<h3 class="text-center">Scottish</h3>
+					<p><a href="des/cat/scottish">more..</a></p>
+				</div>
+				<div class="col-md-4">
+					<img src="img/cat/ragdoll2.jpg" alt="kitty3" id="project1" class="img-responsive" data-toggle="modal" data-target="project1">
+					<h3 class="text-center">Ragdoll</h3>
+					<p><a href="des/cat/ragdoll">more..</a></p>
+				</div>
+			</div>
+			
+			<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="project1">
+				  Launch demo modal
+				</button>
+
+				<!-- Modal -->
+				<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+							</div>
+							<div class="modal-body">
+								<img class="img-responsive" src="img/cat/ragdoll2.jpg">
+								This was my first project in this class. I learned a lot about HTML and CSS.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</body>
+</html>
